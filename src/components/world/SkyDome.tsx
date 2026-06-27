@@ -3,7 +3,7 @@ import { useFrame, useThree } from "@react-three/fiber";
 import { useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
-const SKY_TEXTURE = "/textures/milkyway.jpg";
+const SKY_TEXTURE = `${import.meta.env.BASE_URL}textures/milkyway.jpg`;
 
 // Palette tint applied to the raw photo so the sky lives in the fairy
 // world: a cool lavender-indigo multiply. Lower = darker/moodier.

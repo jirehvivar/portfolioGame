@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 import { PATHS } from "../../data/paths";
 
-const PATH_STONE_MODEL = "/models/stylized-nature/RockPath_Round_Wide.gltf";
+const PATH_STONE_MODEL = `${import.meta.env.BASE_URL}models/stylized-nature/RockPath_Round_Wide.gltf`;
 const STONE_BASE_SCALE = 1.1;
 
 /**

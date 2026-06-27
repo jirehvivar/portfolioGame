@@ -6,7 +6,7 @@ import { WORLD_RADIUS } from "../../data/projects";
 import { LANDMARKS } from "../../data/projects";
 import { glowpuffState } from "../../world/glowpuffState";
 
-const GRASS_TEXTURE = "/models/stylized-nature/Grass.png";
+const GRASS_TEXTURE = `${import.meta.env.BASE_URL}models/stylized-nature/Grass.png`;
 
 const BLADE_HEIGHT = 0.26;
 const BLADE_WIDTH = 0.09;

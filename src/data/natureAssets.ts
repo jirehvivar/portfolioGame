@@ -21,7 +21,7 @@ export interface NatureAsset {
   baseScale: number;
 }
 
-const BASE = "/models/stylized-nature";
+const BASE = `${import.meta.env.BASE_URL}models/stylized-nature`;
 
 export const NATURE_ASSETS = {
   grassCommonShort: { key: "grassCommonShort", path: `${BASE}/Grass_Common_Short.gltf`, wind: "grass", baseScale: 1 },
@@ -67,3 +67,4 @@ export const WIND_PROFILES: Record<WindCategory, { speed: number; amplitude: num
   tree: { speed: 0.5, amplitude: 0.025, lag: 0.6 },
   static: { speed: 0, amplitude: 0, lag: 0 },
 };
+
